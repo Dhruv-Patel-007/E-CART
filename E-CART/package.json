@@ -1,7 +1,7 @@
 {
-  "name": "flipkart",
+  "name": "e-cart",
   "version": "1.0.0",
-  "description": "Full Stack Flipkart Ecommerce",
+  "description": "Full Stack e-cart Ecommerce",
   "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Jigar Sable",
+  "author": "Group Project",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
